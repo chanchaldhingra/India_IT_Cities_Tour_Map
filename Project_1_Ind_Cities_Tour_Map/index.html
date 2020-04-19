@@ -1,0 +1,45 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./libs/v6.3.1-dist/ol.css">
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <div class="grid-container">
+        <div class="grid-1">
+            <div class="column-navigation">
+                <a title='Home' id='Home' class='active' ><i class="fas fa-home" id="Home"></i></a>
+                <a title='Delhi' id='Delhi' ><i class="far fa-circle" id="Delhi"></i></a>
+                <a title='Pune' id='Pune' ><i class="far fa-circle" id="Pune"></i></a>
+                <a title='Bengaluru' id='Bengaluru' ><i class="far fa-circle" id="Bengaluru"></i></a>
+                <a title='Hyderabad' id='Hyderabad' ><i class="far fa-circle" id="Hyderabad"></i></a>
+                <a title='Chennai' id='Chennai' ><i class="far fa-circle" id="Chennai"></i></a>
+                <a title='Mumbai' id='Mumbai' ><i class="far fa-circle" id="Mumbai"></i></a>
+                <a title='Ahmedabad' id='Ahmedabad' ><i class="far fa-circle" id="Ahmedabad"></i></a>
+                
+            </div>
+        </div>
+        <div class="grid-2">
+            <div class="column-map" id="openlayers-map"></div>
+
+        </div>
+        <div class="grid-3">
+            <div class="column-menu" id="menu-information">
+                <p id="cityname">Welcome to Indian IT Cities Tour Map</p>
+                <img id ="cityimage" src="./data/City_images/Indian_Flag.jpg" alt="Indian_Flag">
+            </div>
+        </div>
+    </div>
+
+
+    <div class="popover-information">
+        <p id="popover-text"></p>
+    </div>
+    
+    <script src="https://kit.fontawesome.com/383b21093c.js" crossorigin="anonymous"></script>
+    <script src='./libs/v6.3.1-dist/ol.js'></script>
+    <script src='./main.js'></script>
+</body>
+</html>
